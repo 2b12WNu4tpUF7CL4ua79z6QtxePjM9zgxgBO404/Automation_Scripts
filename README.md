@@ -1,5 +1,5 @@
 # Automation_Scripts
-a various of scripts used for downloading and scraping
+A bunch of handy scripts for automating tasks like downloading and scraping stuff from the web. Perfect for saving time and avoiding repetitive work.
 
 ## Requirements for Fapello
 
