@@ -149,7 +149,7 @@ const processLink = async (browser, link, parentFolder) => {
                 executablePath = config.executablePaths.Brave;
         }
 
-        rl.question('Please enter the base URL (e.g., https://fapello.com/username/): ', async (baseUrl) => {
+        rl.question('Please enter the base URL (e.g., https://fapello.com/username/) right click to paste: ', async (baseUrl) => {
             if (!validateUrl(baseUrl)) {
                 console.log('Invalid URL format.');
                 rl.close();
